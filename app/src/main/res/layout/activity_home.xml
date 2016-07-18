@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    android:alpha="0.7">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/result" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/house_captain"
+        android:paddingBottom="16dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="36dp"
+        android:onClick="house_captain"
+        android:paddingTop="10dp"
+        android:text="\nHouse Captains"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/captain"
+        android:paddingBottom="16dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nSports Captains"
+        android:onClick="captain_sport"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/team"
+        android:paddingBottom="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nTeams"
+        android:onClick="team_sport"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/captain"
+        android:paddingBottom="16dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nScore Board"
+        android:onClick="score"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
+    </ScrollView>

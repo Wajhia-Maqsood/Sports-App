@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    android:alpha="0.7">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/result" />
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Large">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            style="@style/Base.TextAppearance.AppCompat.Large">
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:text="ScoreCard"
+                android:gravity="center"
+                android:layout_span="6"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/Base.TextAppearance.AppCompat.Large">
+            <TextView
+                android:id="@+id/TextView01"
+                android:text="Houses"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:text="Score"
+                android:textStyle="bold"
+                android:typeface="serif"
+                style="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView04"
+                android:text=""
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:text=""
+                android:textStyle="bold"
+                android:typeface="serif"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Blue"
+                android:id="@+id/textView03"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+            <TextView
+                android:id="@+id/Blue"
+                android:gravity="center_horizontal"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Green"
+                android:id="@+id/textView05"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+            <TextView
+                android:id="@+id/Green"
+                android:gravity="center_horizontal"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Yellow"
+                android:id="@+id/textView07"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+            <TextView
+                android:id="@+id/Yellow"
+                android:gravity="center_horizontal"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Red"
+                android:id="@+id/textView09"
+                android:textStyle="bold"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+            <TextView
+                android:id="@+id/Red"
+                android:gravity="center_horizontal"
+                style="@style/Base.TextAppearance.AppCompat.Display1"></TextView>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btn_back"
+        android:background="@drawable/custom_btn_beige"
+        style="@style/btnStyleBeige"
+        android:layout_gravity="center_horizontal"
+        android:onClick="back" />
+</LinearLayout>
+    </ScrollView>

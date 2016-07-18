@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    android:alpha="0.7">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:layout_weight="0.18" />
+
+        <ImageView
+            android:layout_width="302dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <ImageView
+            android:layout_width="302dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Select Your House:"
+            android:textColor="#faf5f5"
+            android:textSize="25dp"
+            android:layout_weight="0.18"
+            android:textColorHint="#f4f1f1"
+            android:text="Select Your House" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RED"
+                android:id="@+id/radioButton"
+                android:layout_gravity="left|center_horizontal"
+                android:layout_weight="0.18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLUE"
+                android:id="@+id/radioButton2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GREEN"
+                android:id="@+id/radioButton3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YELLOW"
+                android:id="@+id/radioButton4"
+                android:layout_weight="0.18" />
+
+        </RadioGroup>
+
+        <EditText android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Verification Code"
+            android:textColor="#090909"
+            android:textSize="22dp"
+            android:layout_weight="0.18"
+            android:textColorHint="#f5f2f2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/register"
+            android:onClick="Register"
+            android:background="@drawable/custom_btn_beige"
+            style="@style/btnStyleBeige"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.54" />
+
+    </LinearLayout>
+</ScrollView>

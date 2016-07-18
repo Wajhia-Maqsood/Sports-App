@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="30dp"
+        android:text="Sports Gala"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"></TextView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="449dp"
+    android:background="@drawable/splash"
+    android:weightSum="1">
+
+
+    </LinearLayout>
+</LinearLayout>

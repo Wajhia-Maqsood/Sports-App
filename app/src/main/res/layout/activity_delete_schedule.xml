@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    android:alpha="0.7">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/result" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Event Type"
+        android:layout_marginTop="20dp"
+        android:id="@+id/eventType"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light" />
+
+    <CheckBox
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Match"
+        android:layout_marginTop="2dp"
+        android:id="@+id/match"
+        android:layout_weight="0.00"
+        android:textColor="@android:color/background_light"/>
+
+    <CheckBox
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Trial"
+        android:layout_marginTop="5dp"
+        android:id="@+id/trial"
+        android:textColor="@android:color/background_light"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/time"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Time"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+
+        />
+
+    <Button
+        android:background="@drawable/custom_btn_beige"
+        style="@style/btnStyleBeige"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Schedule"
+        android:id="@+id/delete"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black" />
+</LinearLayout>
+    </ScrollView>

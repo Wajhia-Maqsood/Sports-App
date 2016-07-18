@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    android:alpha="0.7">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/result" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="16dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nBLUE HOUSE"
+        android:textColor="@color/colorPrimary"
+        android:onClick="team_blue"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="16dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nRED HOUSE"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="team_red"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="16dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nGREEN HOUSE"
+        android:textColor="@android:color/holo_green_dark"
+        android:onClick="team_green"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="16dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="\nYELLOW HOUSE"
+        android:textColor="@android:color/holo_orange_light"
+        android:onClick="team_yellow"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btn_login"
+        android:background="@drawable/custom_btn_beige"
+android:layout_marginTop="10dp"
+        style="@style/btnStyleBeige"
+        android:layout_gravity="center_horizontal"
+        android:onClick="back" />
+</LinearLayout>
+</ScrollView>
